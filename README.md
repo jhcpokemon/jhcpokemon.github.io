@@ -1,2 +1,0 @@
-jhcpokemon.github.io
-====================
