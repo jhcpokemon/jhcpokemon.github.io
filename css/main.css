@@ -1,14 +1,18 @@
-body {background:url(../src/bg.jpg)  no-repeat;
+@font-face{font-family:"Microsoft YaHei";
+           src:url('Microsoft YaHei.ttc');
+		   }
+body {background:url('../src/bg.jpg')  no-repeat;
       font-size:100%; 
 	 }
-nav a{text-decoration:none;
+#nav a{text-decoration:none;
       font-family:"Microsoft YaHei",sans-serif;
 	  font-weight:bold;
 	  align:center;
+	  text-shadow: 1px 2px 5px #303030;
 	 }
-nav a:link,nav a:visited{color:#0A0A0A;}
-nav a:hover,nav a:active{color:#CCCCCC;}
-nav ul{
+#nav a:link,#nav a:visited{color:#0A0A0A;}
+#nav a:hover,#nav a:active{color:#CCCCCC;}
+#nav ul{
        list-style-type:none;
        margin:0;
        padding:0;
@@ -16,7 +20,7 @@ nav ul{
        display:block;
 	   clear:both;
      }
-nav li{
+#nav li{
   display:inline;
   float:left;
   margin-left:30px;
@@ -24,7 +28,8 @@ nav li{
   display:block;
   text-align:center;
  }
-div#container{
+#nav{clear:both;}
+#container{
             text-align:left;
 			margin-left: auto;
             margin-right: auto;
