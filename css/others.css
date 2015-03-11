@@ -1,26 +1,8 @@
 .article img{
-         height:280px;
+         height:auto;
 		 width:700px;
 		 margin-top:50px;
 		 margin-left:50px;
 		 float:left;
          }
-.content{float:left;
-         height:320px;
-         width:600px;
-         margin-top:50px;
-		 margin-left:50px;
-         position:relative;
-         text-indent:33px;		 
-         }
-.content h1{text-align:center;font-size:24px;line-height:2;}
-.content h2{text-align:left;font-size:18px;line-height:2;font-weight:400;}
-.content span{position:absolute;
-              right:10px;
-			  bottom:50px;
-			  font-size:20px;
-			  font-weight:600;
-			  }
-.content a:link,.content a:visited{color:#0A0A0A;color:rgba(10,10,10,0.7);}
-.content a:hover,.content a:active{color:#FFFFFF;color:rgba(255,255,255,0.7);}
 .article a:hover img{transform:scale(1.1);}
