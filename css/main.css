@@ -41,15 +41,14 @@ body {background:url(../src/bg.jpg)  no-repeat;
 			position:fixed;
           }
 body{text-align: center;}
-#article1{width:40%;
+.article{width:40%;
           height:400px;
-		  margin-top:50px;
+		  margin-top:40px;
 		  margin-left:60px;
           }
-#article1 img{float:left;
+.article img{float:left;
               margin-right:20px;
 			  }
-#article1 p{text-align:left;line-height:1.5;}
 .content {
            margin-left:10px;
            height:400px;
