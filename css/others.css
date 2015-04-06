@@ -1,8 +1,8 @@
-.article img{
-         height:auto;
-		 width:700px;
-		 margin-top:50px;
-		 margin-left:50px;
-		 float:left;
-         }
+.left{
+		height:auto;
+	    width:700px;
+		margin-top:20px;
+		margin-left:20px;
+		float:left;
+     }
 .article a:hover img{transform:scale(1.1);}

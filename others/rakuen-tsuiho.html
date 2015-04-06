@@ -2,6 +2,29 @@
 <html>
   <link rel="stylesheet" type="text/css" href="../css/article1.css">
   <link rel="shortcut icon" href="../src/icon.ico"/>
+    <script type="text/javascript" src="../js/jquery-loader.js"></script>
+  <script src="../js/plugin.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.smartmenus.js"></script>
+  <script type="text/javascript">
+	$(function() {
+		$('#main-menu').smartmenus({
+			subMenusSubOffsetX: 1,
+			subMenusSubOffsetY: -8
+		});
+	});
+  </script>
+  <link href="../css/sm-core-css.css" rel="stylesheet" type="text/css" />
+  <link href="../css/sm-clean.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+	#main-menu {
+		position:relative;
+		z-index:9999;
+		width:auto;
+	}
+	#main-menu ul {
+		width:12em;
+	}
+</style>
   <head>
   <meta charset=utf-8/>
     <title>
@@ -10,11 +33,55 @@
   </head>
   <body>
   <div id="nav">
-  <ul>
+  <ul id="main-menu" class="sm sm-clean">
   <li><a href="../index.html">Home</a></li>
-  <li><a href="">Type Moon</a></li>
-  <li><a href="">Sunrise</a></li>
-  <li><a href="">TouHou</a></li>
+  <li><a href="#">Type Moon</a>
+	<ul>
+		<li><a href="../type_moon/tsuki.html">月姬</a></li>
+		<li><a href="#">Fate</a>
+			<ul>
+				<li><a href="#">Fate/Zero</a></li>
+				<li><a href="#">Fate/Stay Night</a></li>
+				<li><a href="#">Fate/Hollow Ataraxia</a></li>
+				<li><a href="#">Fate/Prototype</a></li>
+				<li><a href="#">Fate/Extra</a></li>
+				<li><a href="#">Fate/Extra CCC</a></li>
+				<li><a href="#">Fate/Strange Fake</a></li>
+				<li><a href="#">Fate/Apocrypha</a></li>
+				<li><a href="#">Fate/Kaleid Liner Prisma Illya</a></li>
+			</ul>
+			</li>
+			<li><a href="#">空の境界</a></li>
+			<li><a href="#">魔法使の夜</a></li>
+			<li><a href="#">Others</a>
+				<ul>
+					<li><a href="#">Take Moon</a></li>
+					<li><a href="#">Fire Girl</a></li>
+					<li><a href="#">月の珊瑚</a></li>
+					<li><a href="#">钢の大地</a></li>
+					<li><a href="#">宙の外</a></li>
+					<li><a href="#">D.D.D</a></li>
+					<li><a href="#">四月の魔女の部屋</a></li>
+					<li><a href="#">Lord·艾尔梅罗二世案件簿</a></li>
+					<li><a href="#">冰の花</a></li>
+					<li><a href="#">2015年の時計塔</a></li>
+				</ul>
+			</li>
+			</ul>
+			</li>
+  <li><a href="#">Sunrise</a>
+	<ul>
+		<li><a href="#">Gundam</a></li>
+		<li><a href="#">境界線上のホライゾン</a></li>
+		<li><a href="#">革命機ヴァルヴレイヴ</a></li>
+	</ul>
+  </li>
+  <li><a href="#">TouHou</a>
+	<ul>
+		<li><a href="#">Game</a></li>
+		<li><a href="#">Music</a></li>
+	</ul>
+  </li>
   <li><a href="../others.html">Others</a></li>
   </ul>
   </div><!--end of nav-->

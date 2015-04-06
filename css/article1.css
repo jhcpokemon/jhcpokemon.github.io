@@ -1,35 +1,12 @@
 body{background-color:black;
      font-family:"Microsoft YaHei",sans-serif;
 	 }
-#nav a{
-      text-decoration:none;
-	  font-weight:bold;
-	  text-shadow: 1px 2px 5px #303030;
-	  transition:all 0.2s ease-in-out;
-	 }
-#nav a:link,#nav a:visited{color:#FFFFFF;color:rgba(255,255,255,0.7);}
-#nav a:hover,#nav a:active{color:#20B2AA;color:rgba(32,178,170,0.7);}
-#nav ul{
-       list-style-type:none;
-       margin:0;
-       padding:0;
-       font-size:2em;
-       display:block;
-     }
-#nav li{
-  display:inline;
-  float:left;
-  margin-left:30px;
-  margin-right:30px;
-  display:block;
-  text-align:left;
- }
-#nav{
-     text-align:left;
-     margin:auto;
-     width:1000px; 
-     height:50px;	 
-	 }
+#nav{width:1550px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	opacity:0.6;
+	}
 #container{
 			margin-left:auto;
 			margin-right:auto;		
