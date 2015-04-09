@@ -13,6 +13,34 @@
 		});
 	});
   </script>
+  <script type="text/javascript">
+	var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	  var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+	  function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+  </script>
   <link href="../css/sm-core-css.css" rel="stylesheet" type="text/css" />
   <link href="../css/sm-clean.css" rel="stylesheet" type="text/css" />
   <style type="text/css">
@@ -89,6 +117,10 @@
   <img src="../src/article1.png"/>
   </div><!--end of picture-->
   <div id="container">
+  <iframe id="player" type="text/html" width="1280" height="720"
+  src="https://www.youtube.com/watch?v=4TcOlXsy2Sw?enablejsapi=1"
+  frameborder="0">
+  </iframe>
   <h1>乐园追放 -Expelled From Paradise-</h1>
      <p>正式版BD发售是12月10日，最早在2014/11/16 14:34:00放流，采用的源是剧场先行版，具体来说就是只有正片，相当于通常版去掉抽选券 ，初回限定版还会有PV+CM集+CD+特典图像。光看正片是没有区别的。</p>
      <p>本次剧场版在日本本土反响不错，上映头两天票房达到了3000万日元，实际上制作也是比较精良。久违的钉宫主役，这次老虚的脚本并不黑暗，另一种风格给人的感觉也不错，不过好像从翠星的伽尔冈缇亚开始就感觉缓和些了。最近的PSYCHO-PASS剧情的扭曲更多归结于冲方丁。</p>
