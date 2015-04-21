@@ -1,0 +1,8 @@
+body{background:url(../res/bg_experice.jpg)  no-repeat;
+	  background-size: cover;}
+ol{width: 40%;}
+ol li{	font-size: 24px;
+		margin: 15px;
+		}
+#ex{margin-left: auto;
+	margin-right: auto;}

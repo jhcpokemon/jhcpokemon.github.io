@@ -1,0 +1,21 @@
+body{background:url(../res/bg_index.jpg)  no-repeat;
+	  background-size: cover;}
+h1{text-align: center;}
+td{font-size: 24px;
+	padding: 10px;}
+table{
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	border:3px solid black;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #888;}
+#input input{width: 50px;}
+#input{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 25px;
+	}

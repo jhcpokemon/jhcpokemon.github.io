@@ -1,0 +1,17 @@
+body{background: url(../res/bg_grades.jpg) no-repeat;
+	background-size: cover;}
+table{width:50%;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;}
+th{font-size: 18px;
+	font-weight: 900;
+	text-align: left;
+	padding: 15px;
+	margin: 25px;
+	border: 1px solid black;}
+td{font-size: 18px;
+	margin:20px; 
+	padding: 15px;
+	border: 1px solid black;}

@@ -1,0 +1,16 @@
+body{background: url(../res/bg_books.jpg) no-repeat;
+	background-size: cover;
+	}
+#container ul{
+				float: left;
+				margin-left: 20px;
+				margin-top: 50px;
+				list-style-type: none;
+				width: 100%;
+			}
+#container ul li{font-size: 24px;}
+#books img{	width: auto;
+			height: 400px;
+			visibility: hidden;
+			margin-top: 80px;}
+#sherlock{margin-left: 100px;}

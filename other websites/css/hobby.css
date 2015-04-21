@@ -1,0 +1,11 @@
+body{background: url(../res/bg_hobby.jpg) no-repeat;
+	background-size: cover;}
+p{text-indent: 50px;
+	font-size: 18px;}
+#nav{background-color: rgba(255,255,255,0.2);}
+#pic{margin-top: 25px;
+	margin-left: 15px;
+	padding: 20px;}
+#pic img{margin:25px;}
+#pic p{	font-size: 32px;
+		font-weight: 900px;}
