@@ -1,5 +1,7 @@
 body {background:url(../src/bg_2.jpg)  no-repeat;
       font-size:100%; 
+      background-position: center;
+      background-size: contain 100%;
 	  font-family:"Microsoft YaHei",sans-serif;
 	 }
 #nav{width:1550px;
