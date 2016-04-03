@@ -9,10 +9,20 @@
     <meta name="robots" content="all">
     <meta name="description" content="jhcpokemon's blog-Avalon">
     <meta http-equiv="author" content="姜浩诚">
+    <script type="text/javascript">
+        function saveCookie() {
+            setCookie('mail', document.getElementsByTagName("input")[0].value,3600)
+        }
+
+        function setCookie(c_name, value, expiredays) {
+            var exdate = new Date()
+            exdate.setDate(exdate.getDate() + expiredays)
+            document.cookie = c_name + "=" + escape(value) +
+                ((expiredays == null) ? "" : ";expires=" + exdate.toGMTString())
+        }
+    </script>
+
     <title>物流助手用户注册页面</title>
-	<?php
-    echo '';
-?>
 </head>
 
 <body>
@@ -27,7 +37,7 @@
                 <input type="text" name="password">
             </div>
             <div class="input">
-                <input type="submit" value="注册" style="font-size:110%">
+                <input type="button" value="注册" style="font-size:110%" onclick="saveCookie">
             </div>
         </form>
     </div>
