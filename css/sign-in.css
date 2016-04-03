@@ -12,7 +12,8 @@ html {
     display: table;
     width: 100%;
     font-family: "Microsoft YaHei", sans-serif;
-    background: url(../src/sign_in_bg.jpg) no-repeat;
+    background: url(../src/sign_in_bg.jpg);
+	background-size:cover;
 }
 
 body {
