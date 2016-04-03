@@ -10,6 +10,9 @@
     <meta name="description" content="jhcpokemon's blog-Avalon">
     <meta http-equiv="author" content="姜浩诚">
     <title>物流助手用户注册页面</title>
+	<?php
+    echo '';
+?>
 </head>
 
 <body>
